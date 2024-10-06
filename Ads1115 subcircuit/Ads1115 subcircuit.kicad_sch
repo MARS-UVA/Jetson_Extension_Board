@@ -926,10 +926,10 @@
 		(uuid "042b425e-d99d-4d88-9916-604d18427c07")
 	)
 	(junction
-		(at 123.19 68.58)
+		(at 123.19 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "31fe7942-43a9-4373-a349-85f2bf96000f")
+		(uuid "0dbd69ed-aa15-4261-8170-7aa4e69cda5c")
 	)
 	(junction
 		(at 90.17 74.93)
@@ -1011,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 54.61) (xy 123.19 60.96)
+			(xy 123.19 54.61) (xy 123.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1019,6 +1019,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "0e8ce98d-0066-435f-b46c-928391d5ed18")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "111d6383-6dbd-44c0-b0ff-fab797236d23")
 	)
 	(wire
 		(pts
@@ -1044,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 123.19 68.58)
+			(xy 123.19 60.96) (xy 123.19 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1118,17 +1129,6 @@
 			(color 1 0 0 1)
 		)
 		(uuid "452c9af0-958f-4ee0-ba6d-4400b93a6450")
-	)
-	(wire
-		(pts
-			(xy 123.19 68.58) (xy 123.19 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "4b2c370a-5103-42e6-8d0d-11f6c37b828b")
 	)
 	(wire
 		(pts
@@ -1374,6 +1374,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f442e49b-cc60-49f6-9d2e-01f68f197dca")
+	)
+	(wire
+		(pts
 			(xy 80.01 74.93) (xy 90.17 74.93)
 		)
 		(stroke
@@ -1394,7 +1404,7 @@
 		)
 		(uuid "c7fed16c-830e-43e3-89b9-348a774df24c")
 	)
-	(label "5V"
+	(label "3.3V"
 		(at 82.55 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1405,7 +1415,7 @@
 		)
 		(uuid "2588fe0c-16d0-4603-ba6f-139170fede8c")
 	)
-	(label "5V"
+	(label "3.3V"
 		(at 82.55 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1471,7 +1481,7 @@
 		)
 		(uuid "c509e558-0e18-4415-9bc2-d38adaf2fa85")
 	)
-	(label "5V"
+	(label "3.3V"
 		(at 82.55 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1515,7 +1525,7 @@
 		)
 		(uuid "e60827d5-2695-4de9-bd5c-2aa160dc6196")
 	)
-	(label "5V"
+	(label "3.3V"
 		(at 82.55 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1570,7 +1580,7 @@
 			)
 		)
 	)
-	(global_label "Jetson’s GPIO"
+	(global_label "GPIOX"
 		(shape input)
 		(at 160.02 88.9 0)
 		(fields_autoplaced yes)
@@ -1582,7 +1592,7 @@
 		)
 		(uuid "e1e37fd0-7289-4935-8cac-53035629c97b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.189 88.9 0)
+			(at 168.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2140,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 123.19 68.58 270)
+		(at 127 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2139,7 +2149,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ee972c-b4da-4558-b0cd-8aa2c52efa0a")
 		(property "Reference" "#FLG01"
-			(at 125.095 68.58 0)
+			(at 128.905 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2158,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 127 68.5799 90)
+			(at 130.81 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 68.58 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 68.58 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2185,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 123.19 68.58 0)
+			(at 127 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
