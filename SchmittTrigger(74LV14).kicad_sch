@@ -1,0 +1,2459 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9f9a3168-cb5f-431c-a199-a4bb7171a04c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74xx:74LV14"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LV14"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hex Inverter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL not inv"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LV14_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_7_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LV14_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "TBP03R2-350-03BE:TBP03R2-350-03BE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TBP03R2-350-03BE"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TBP03R2-350-03BE_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 170.18 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d20b1d1-55c5-42c0-9c22-4d81c2aafcd3")
+	)
+	(junction
+		(at 170.18 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a0ea6d-4c94-4ab3-9c28-f3a4be0ce013")
+	)
+	(junction
+		(at 144.78 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b7c77e7-dbd5-4bb9-9991-2dddee3db7a1")
+	)
+	(junction
+		(at 144.78 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c22e238-62e8-4af5-88a4-1b15d5630da3")
+	)
+	(junction
+		(at 144.78 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fe0f117-42cd-4b0d-8226-0a52e9a4df0a")
+	)
+	(junction
+		(at 170.18 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "738e9cd9-cbad-4870-93d8-bc2c3f8e2c2a")
+	)
+	(junction
+		(at 144.78 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad1ae010-3b57-43b7-aac8-cfbe244ac8cb")
+	)
+	(junction
+		(at 170.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef0d350-aa25-4a82-b0ce-36624b030520")
+	)
+	(junction
+		(at 144.78 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9d639bc-8bf0-4d2a-bd77-28ca53136b19")
+	)
+	(junction
+		(at 170.18 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30e65de-48e2-4a9c-a970-cb56e7b7885f")
+	)
+	(no_connect
+		(at 172.72 133.35)
+		(uuid "96df7311-3748-4209-aa44-8296dd5158cc")
+	)
+	(no_connect
+		(at 172.72 120.65)
+		(uuid "fff0d11f-c3b4-45aa-88d5-d180b9de7784")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01948133-3bac-4e74-a5df-37b27356dcee")
+	)
+	(wire
+		(pts
+			(xy 144.78 92.71) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0667b694-7154-4ca2-b997-b1371a05e963")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe1b786-5a8c-4866-88c5-25e878d1bafe")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad95b47-dacf-4be7-a6c9-e17753110ac3")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c043ef4-06fd-40de-88a7-3e9354ffea31")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "380bb799-7274-43a7-baa1-d9052f5101bd")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2c99ae-b17d-432e-80b9-587b7064fe25")
+	)
+	(wire
+		(pts
+			(xy 170.18 110.49) (xy 170.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483030a9-79b7-4637-9f50-71ff993d89c0")
+	)
+	(wire
+		(pts
+			(xy 170.18 85.09) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f016085-8401-476c-90b5-910dd76e2adc")
+	)
+	(wire
+		(pts
+			(xy 187.96 107.95) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f66638-eaa6-40c6-9954-4fbbc3785f7f")
+	)
+	(wire
+		(pts
+			(xy 170.18 97.79) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7829c75d-7842-4692-9d0a-5330f701d3b7")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cb54d2-0cb4-44d7-b694-eba3fddccce0")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 172.72 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c5ee38-9992-4568-a4d3-dd7bbdda9372")
+	)
+	(wire
+		(pts
+			(xy 187.96 82.55) (xy 209.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c056681-26b2-442e-b269-3d06df6b2ae0")
+	)
+	(wire
+		(pts
+			(xy 187.96 69.85) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adeab9ef-d640-4ef3-93d5-0a9bf7d68ee7")
+	)
+	(wire
+		(pts
+			(xy 143.51 92.71) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1c5187-47b5-4b35-87c2-464832112756")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 172.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde3aca9-8f17-4291-9eba-821ace2daaa9")
+	)
+	(wire
+		(pts
+			(xy 144.78 67.31) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d29d06-ac6a-48cb-a5fc-84f787d258aa")
+	)
+	(wire
+		(pts
+			(xy 143.51 107.95) (xy 172.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f1d833-7acb-4040-be48-ffb0332a1c08")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 144.78 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99bbd9d-61ae-4ac1-9a6f-c33f72cae092")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8bcb65-a497-410f-baf2-18e806926602")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23edda6-fd5a-46e5-a912-373b17de943d")
+	)
+	(wire
+		(pts
+			(xy 143.51 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf724d2-8561-42fc-a093-6e15c2d78aa8")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d08e5d-05b4-469a-9379-550a59aac9a8")
+	)
+	(wire
+		(pts
+			(xy 170.18 72.39) (xy 170.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47f3f0b-b2e9-451c-a0e0-599f2776a5f8")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 170.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f69ddb-f8f7-43ea-888f-839f5dc7abb3")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa946d36-cde5-4bfb-9fb7-2a3ce9be821f")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd16aace-2a2d-4f39-b867-6c2dc7280e49")
+	)
+	(label "Jetson GPIO Pin 2"
+		(at 187.96 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e07505e-c82a-4aa9-9e60-e337fc970646")
+	)
+	(label "Jetson GPIO Pin 4"
+		(at 187.96 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402970fc-ad79-4637-8b0a-1a95a0f8d373")
+	)
+	(label "Jetson GPIO Pin 1"
+		(at 187.96 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d0e9940-ad21-49f9-9e17-ef079b8940aa")
+	)
+	(label "Jetson GPIO Pin 3"
+		(at 187.96 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e803bde7-89a4-43d3-bdc9-bed683702525")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 170.18 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1846a5b3-7826-4383-a34d-d208d112369c")
+	)
+	(hierarchical_label "ST 1 (GPIO 12)"
+		(shape input)
+		(at 209.55 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61b8ce81-a593-40fd-8ef0-b9ceb786fadc")
+	)
+	(hierarchical_label "ST 2 (GPIO 16)"
+		(shape input)
+		(at 209.55 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86259cb2-54c1-49b8-8a8d-caf36fbd69cb")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 144.78 62.23 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91c94155-d9a8-44c7-8847-bbeeb0df280e")
+	)
+	(hierarchical_label "ST 4 (GPIO 21)"
+		(shape input)
+		(at 209.55 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2851430-068d-4d28-b869-0cbe054487da")
+	)
+	(hierarchical_label "ST 3 (GPIO 20)"
+		(shape input)
+		(at 209.55 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef34e673-2a0d-42d3-bd73-ff828f1669b0")
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 180.34 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02999af5-a5fa-437f-8067-9457c8d6feed")
+		(property "Reference" "U2"
+			(at 180.34 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 180.34 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 180.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efa29ce6-a007-47b7-8944-e48e113fbe0b")
+		)
+		(pin "7"
+			(uuid "168b6690-1be0-4f43-b27a-4892b2ed186e")
+		)
+		(pin "5"
+			(uuid "6d9650c6-1a84-49a2-a112-babd25587f7f")
+		)
+		(pin "14"
+			(uuid "cb8d2bfa-6e60-427d-9a67-80c91469cf16")
+		)
+		(pin "4"
+			(uuid "a7f9cd2f-6bcb-4d95-bbbf-5a4d0f8717fa")
+		)
+		(pin "8"
+			(uuid "db50f7e4-44b9-41e4-9243-5a725db12522")
+		)
+		(pin "3"
+			(uuid "4ec85ff3-6b9f-4cf2-b205-628ab8df01c3")
+		)
+		(pin "9"
+			(uuid "1cdc6347-8fd1-4111-94d2-c652fbf7427d")
+		)
+		(pin "10"
+			(uuid "f658052b-8015-4c7f-a304-98aa971f339d")
+		)
+		(pin "11"
+			(uuid "fae3bd16-72f5-4b9a-9c3c-d06c6aaa5003")
+		)
+		(pin "6"
+			(uuid "4ad75091-78ed-4a41-802c-ed726a5c19a8")
+		)
+		(pin "12"
+			(uuid "f2544c8b-babf-47cc-b496-693288ab783a")
+		)
+		(pin "1"
+			(uuid "a2e43aa3-dc63-4ba2-aeff-d878c7d1f232")
+		)
+		(pin "13"
+			(uuid "84426117-fb0a-4bdf-9bcc-e22c4dd0282f")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 133.35 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1427923f-f925-4716-a4a6-b376c841b30e")
+		(property "Reference" "J4"
+			(at 126.492 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 117.602 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 133.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ee41fa2-69de-4a0b-8c37-ec38de25505e")
+		)
+		(pin "3"
+			(uuid "530183ca-370c-45f7-8f51-5f171bae3c51")
+		)
+		(pin "1"
+			(uuid "5555b6f6-dbd8-46d2-9456-5035dc56f86c")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 180.34 95.25 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bb0c82e-194f-4089-920f-9122cec83a46")
+		(property "Reference" "U2"
+			(at 180.34 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 180.34 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 180.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20248fd-7db0-4d8f-a220-b69f7461094b")
+		)
+		(pin "7"
+			(uuid "168b6690-1be0-4f43-b27a-4892b2ed1873")
+		)
+		(pin "5"
+			(uuid "7ec0aff8-e84a-4de0-a16c-7e237d16f458")
+		)
+		(pin "14"
+			(uuid "cb8d2bfa-6e60-427d-9a67-80c91469cf1b")
+		)
+		(pin "4"
+			(uuid "a7f9cd2f-6bcb-4d95-bbbf-5a4d0f8717ff")
+		)
+		(pin "8"
+			(uuid "db50f7e4-44b9-41e4-9243-5a725db12527")
+		)
+		(pin "3"
+			(uuid "4ec85ff3-6b9f-4cf2-b205-628ab8df01c8")
+		)
+		(pin "9"
+			(uuid "1cdc6347-8fd1-4111-94d2-c652fbf74282")
+		)
+		(pin "10"
+			(uuid "f658052b-8015-4c7f-a304-98aa971f33a2")
+		)
+		(pin "11"
+			(uuid "fae3bd16-72f5-4b9a-9c3c-d06c6aaa5008")
+		)
+		(pin "6"
+			(uuid "dd6aa06a-fbc5-46e7-a207-e1a5f64d6fb5")
+		)
+		(pin "12"
+			(uuid "f2544c8b-babf-47cc-b496-693288ab783f")
+		)
+		(pin "1"
+			(uuid "30d9b5b3-0e40-40e0-9a18-3f2d2a946732")
+		)
+		(pin "13"
+			(uuid "84426117-fb0a-4bdf-9bcc-e22c4dd02834")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 180.34 107.95 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e404d8e-7a14-41c8-a481-d61c79598159")
+		(property "Reference" "U2"
+			(at 180.34 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 180.34 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20248fd-7db0-4d8f-a220-b69f7461094c")
+		)
+		(pin "7"
+			(uuid "168b6690-1be0-4f43-b27a-4892b2ed1874")
+		)
+		(pin "5"
+			(uuid "6d9650c6-1a84-49a2-a112-babd25587f85")
+		)
+		(pin "14"
+			(uuid "cb8d2bfa-6e60-427d-9a67-80c91469cf1c")
+		)
+		(pin "4"
+			(uuid "a7f9cd2f-6bcb-4d95-bbbf-5a4d0f871800")
+		)
+		(pin "8"
+			(uuid "16251455-b86c-4d73-9b2a-b8dac8780373")
+		)
+		(pin "3"
+			(uuid "4ec85ff3-6b9f-4cf2-b205-628ab8df01c9")
+		)
+		(pin "9"
+			(uuid "9031a992-6849-4285-816f-f7bb44d0e3da")
+		)
+		(pin "10"
+			(uuid "f658052b-8015-4c7f-a304-98aa971f33a3")
+		)
+		(pin "11"
+			(uuid "fae3bd16-72f5-4b9a-9c3c-d06c6aaa5009")
+		)
+		(pin "6"
+			(uuid "4ad75091-78ed-4a41-802c-ed726a5c19ae")
+		)
+		(pin "12"
+			(uuid "f2544c8b-babf-47cc-b496-693288ab7840")
+		)
+		(pin "1"
+			(uuid "30d9b5b3-0e40-40e0-9a18-3f2d2a946733")
+		)
+		(pin "13"
+			(uuid "84426117-fb0a-4bdf-9bcc-e22c4dd02835")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 133.35 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fa4a89e-d29f-464a-9e6c-6da4749633fb")
+		(property "Reference" "J3"
+			(at 126.746 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 117.602 86.614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "409ab270-b605-47e3-9e47-aa3ddd9db93f")
+		)
+		(pin "3"
+			(uuid "4df1044e-8f4e-45c2-b18b-99d53337082d")
+		)
+		(pin "1"
+			(uuid "d348b63f-7838-462d-9a7a-b2a9c37a3337")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 170.18 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33b9763e-7768-4a09-8065-fbe51b8f4bb3")
+		(property "Reference" "#FLG02"
+			(at 168.275 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 168.91 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 170.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53fdcaa-6f18-4fea-9a4f-f12125566feb")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 133.35 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e5ccea8-e7ee-448d-b11f-8b94b7dda017")
+		(property "Reference" "J5"
+			(at 126.492 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 117.856 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f31b2723-f5fb-42a6-8c1c-bc124a56e677")
+		)
+		(pin "3"
+			(uuid "d9ae2b0f-15c7-488b-8601-8a69f5f6ecac")
+		)
+		(pin "1"
+			(uuid "ade1e34a-bf07-4503-adea-8e510d2d9306")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 180.34 120.65 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "669d85fe-559c-43a8-b0ca-190c070a112d")
+		(property "Reference" "U2"
+			(at 180.34 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 180.34 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20248fd-7db0-4d8f-a220-b69f74610947")
+		)
+		(pin "7"
+			(uuid "168b6690-1be0-4f43-b27a-4892b2ed186f")
+		)
+		(pin "5"
+			(uuid "6d9650c6-1a84-49a2-a112-babd25587f80")
+		)
+		(pin "14"
+			(uuid "cb8d2bfa-6e60-427d-9a67-80c91469cf17")
+		)
+		(pin "4"
+			(uuid "a7f9cd2f-6bcb-4d95-bbbf-5a4d0f8717fb")
+		)
+		(pin "8"
+			(uuid "db50f7e4-44b9-41e4-9243-5a725db12523")
+		)
+		(pin "3"
+			(uuid "4ec85ff3-6b9f-4cf2-b205-628ab8df01c4")
+		)
+		(pin "9"
+			(uuid "1cdc6347-8fd1-4111-94d2-c652fbf7427e")
+		)
+		(pin "10"
+			(uuid "10986cc9-6123-49a7-95f6-cbc197b12336")
+		)
+		(pin "11"
+			(uuid "120bad53-ec3a-4b82-b3a0-b0d33dff247b")
+		)
+		(pin "6"
+			(uuid "4ad75091-78ed-4a41-802c-ed726a5c19a9")
+		)
+		(pin "12"
+			(uuid "f2544c8b-babf-47cc-b496-693288ab783b")
+		)
+		(pin "1"
+			(uuid "30d9b5b3-0e40-40e0-9a18-3f2d2a94672e")
+		)
+		(pin "13"
+			(uuid "84426117-fb0a-4bdf-9bcc-e22c4dd02830")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 180.34 82.55 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a3aeb4a-ee20-4c61-a081-92946bafe831")
+		(property "Reference" "U2"
+			(at 180.34 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 180.34 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20248fd-7db0-4d8f-a220-b69f7461094a")
+		)
+		(pin "7"
+			(uuid "168b6690-1be0-4f43-b27a-4892b2ed1872")
+		)
+		(pin "5"
+			(uuid "6d9650c6-1a84-49a2-a112-babd25587f83")
+		)
+		(pin "14"
+			(uuid "cb8d2bfa-6e60-427d-9a67-80c91469cf1a")
+		)
+		(pin "4"
+			(uuid "4528508f-9ad5-4891-8405-be95e9cd8023")
+		)
+		(pin "8"
+			(uuid "db50f7e4-44b9-41e4-9243-5a725db12526")
+		)
+		(pin "3"
+			(uuid "1a405f0c-4725-4731-ab65-8c19541a959f")
+		)
+		(pin "9"
+			(uuid "1cdc6347-8fd1-4111-94d2-c652fbf74281")
+		)
+		(pin "10"
+			(uuid "f658052b-8015-4c7f-a304-98aa971f33a1")
+		)
+		(pin "11"
+			(uuid "fae3bd16-72f5-4b9a-9c3c-d06c6aaa5007")
+		)
+		(pin "6"
+			(uuid "4ad75091-78ed-4a41-802c-ed726a5c19ac")
+		)
+		(pin "12"
+			(uuid "f2544c8b-babf-47cc-b496-693288ab783e")
+		)
+		(pin "1"
+			(uuid "30d9b5b3-0e40-40e0-9a18-3f2d2a946731")
+		)
+		(pin "13"
+			(uuid "84426117-fb0a-4bdf-9bcc-e22c4dd02833")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 133.35 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d08845e0-2749-43bf-aec3-65e3353d0d2c")
+		(property "Reference" "J2"
+			(at 126.746 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 117.856 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 133.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3563c3c4-70af-438a-b332-6eaa75aa6fc6")
+		)
+		(pin "3"
+			(uuid "08653b79-dd46-44b5-a1c3-abb261bf4f72")
+		)
+		(pin "1"
+			(uuid "1aebcf83-3fc0-42a5-b747-e7d507ef8305")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 180.34 133.35 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d66245-92f3-46e3-ae28-e3c468a2b530")
+		(property "Reference" "U2"
+			(at 180.34 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 180.34 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20248fd-7db0-4d8f-a220-b69f74610949")
+		)
+		(pin "7"
+			(uuid "168b6690-1be0-4f43-b27a-4892b2ed1871")
+		)
+		(pin "5"
+			(uuid "6d9650c6-1a84-49a2-a112-babd25587f82")
+		)
+		(pin "14"
+			(uuid "cb8d2bfa-6e60-427d-9a67-80c91469cf19")
+		)
+		(pin "4"
+			(uuid "a7f9cd2f-6bcb-4d95-bbbf-5a4d0f8717fd")
+		)
+		(pin "8"
+			(uuid "db50f7e4-44b9-41e4-9243-5a725db12525")
+		)
+		(pin "3"
+			(uuid "4ec85ff3-6b9f-4cf2-b205-628ab8df01c6")
+		)
+		(pin "9"
+			(uuid "1cdc6347-8fd1-4111-94d2-c652fbf74280")
+		)
+		(pin "10"
+			(uuid "f658052b-8015-4c7f-a304-98aa971f33a0")
+		)
+		(pin "11"
+			(uuid "fae3bd16-72f5-4b9a-9c3c-d06c6aaa5006")
+		)
+		(pin "6"
+			(uuid "4ad75091-78ed-4a41-802c-ed726a5c19ab")
+		)
+		(pin "12"
+			(uuid "180560ba-851e-4876-aba6-854b02971115")
+		)
+		(pin "1"
+			(uuid "30d9b5b3-0e40-40e0-9a18-3f2d2a946730")
+		)
+		(pin "13"
+			(uuid "0ad441e5-84f0-40e5-b030-e1fe66c5633c")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LV14")
+		(at 157.48 120.65 270)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d89e80dc-f49c-4415-9873-02d056130da3")
+		(property "Reference" "U2"
+			(at 157.734 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LV14"
+			(at 157.48 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-12_W7.62mm"
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LV14"
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hex Inverter"
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20248fd-7db0-4d8f-a220-b69f74610948")
+		)
+		(pin "7"
+			(uuid "8771ea8f-ada3-4604-9e8c-dda92b228501")
+		)
+		(pin "5"
+			(uuid "6d9650c6-1a84-49a2-a112-babd25587f81")
+		)
+		(pin "14"
+			(uuid "db4a19fc-5108-40c5-9365-5f1b99b22a3c")
+		)
+		(pin "4"
+			(uuid "a7f9cd2f-6bcb-4d95-bbbf-5a4d0f8717fc")
+		)
+		(pin "8"
+			(uuid "db50f7e4-44b9-41e4-9243-5a725db12524")
+		)
+		(pin "3"
+			(uuid "4ec85ff3-6b9f-4cf2-b205-628ab8df01c5")
+		)
+		(pin "9"
+			(uuid "1cdc6347-8fd1-4111-94d2-c652fbf7427f")
+		)
+		(pin "10"
+			(uuid "f658052b-8015-4c7f-a304-98aa971f339f")
+		)
+		(pin "11"
+			(uuid "fae3bd16-72f5-4b9a-9c3c-d06c6aaa5005")
+		)
+		(pin "6"
+			(uuid "4ad75091-78ed-4a41-802c-ed726a5c19aa")
+		)
+		(pin "12"
+			(uuid "f2544c8b-babf-47cc-b496-693288ab783c")
+		)
+		(pin "1"
+			(uuid "30d9b5b3-0e40-40e0-9a18-3f2d2a94672f")
+		)
+		(pin "13"
+			(uuid "84426117-fb0a-4bdf-9bcc-e22c4dd02831")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "U2")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 144.78 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e533bcfa-3e45-419c-b83b-f1c03fe7f8ff")
+		(property "Reference" "#FLG01"
+			(at 146.685 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 145.796 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d232f16-b3ae-4e66-9d21-6d12384c21e5")
+		)
+		(instances
+			(project "WholeCircuitIntegration(Flagged)"
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
