@@ -266,29 +266,42 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x03_Socket"
+		(symbol "TBP03R2-350-03BE:TBP03R2-350-03BE"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at -5.08 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x03_Socket"
-				(at 0 -5.08 0)
+			(property "Value" "TBP03R2-350-03BE"
+				(at -5.08 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -297,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -306,164 +319,108 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "PARTREV" "1.0"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify bottom)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
+			)
+			(symbol "TBP03R2-350-03BE_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -568,6 +525,12 @@
 		)
 	)
 	(junction
+		(at 116.84 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04a9a632-cece-4be6-8b2b-3dc1e4aa7403")
+	)
+	(junction
 		(at 152.4 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -580,28 +543,28 @@
 		(uuid "1cae0a1d-8f9c-4425-afbe-064bde2d1526")
 	)
 	(junction
-		(at 149.86 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26589469-aa18-4206-97b4-81aba908fd2b")
-	)
-	(junction
 		(at 151.13 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2beb90ad-25fe-43ce-90f4-77c273fcf552")
 	)
 	(junction
-		(at 116.84 63.5)
+		(at 149.86 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "77c4f73f-79c9-43be-8f98-2b3dcd4f909d")
+		(uuid "44f664bd-86e2-4067-9c9d-b65af0628005")
 	)
 	(junction
-		(at 127 68.58)
+		(at 116.84 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "824abac5-08ee-4450-be71-93a813ac90e2")
+		(uuid "489775cb-840b-4355-a944-2c0cc3c93e9f")
+	)
+	(junction
+		(at 127 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85c9868a-beba-4dcd-a4ff-21e4a7acacb2")
 	)
 	(junction
 		(at 127 87.63)
@@ -610,19 +573,13 @@
 		(uuid "8bc5b101-8205-47ca-a37d-93d1d17db9a7")
 	)
 	(junction
-		(at 116.84 72.39)
+		(at 127 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de4592a6-3889-49be-8656-15bb2c31ae9b")
+		(uuid "b7e9b89c-cd82-4807-9014-dd6428625d6a")
 	)
 	(junction
-		(at 127 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee11e2eb-88c0-4114-ab73-23d526193238")
-	)
-	(junction
-		(at 116.84 54.61)
+		(at 116.84 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe3690c1-af3e-434d-b2ef-93176ffca0c0")
@@ -633,7 +590,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 54.61) (xy 149.86 54.61)
+			(xy 116.84 48.26) (xy 149.86 48.26)
 		)
 		(stroke
 			(width 0)
@@ -654,7 +611,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 59.69) (xy 127 59.69)
+			(xy 106.68 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -686,7 +643,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 116.84 72.39)
+			(xy 106.68 71.12) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 54.61) (xy 116.84 54.61)
+			(xy 106.68 48.26) (xy 116.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 82.55) (xy 116.84 72.39)
+			(xy 116.84 71.12) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -741,7 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 59.69) (xy 127 68.58)
+			(xy 127 53.34) (xy 127 64.77)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +709,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 68.58) (xy 127 77.47)
+			(xy 106.68 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c830890-10df-40b0-a7cd-e604785fcc4c")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -763,7 +730,18 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 139.7 57.15)
+			(xy 116.84 59.69) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2f3c620a-a142-49c4-84bd-28975b601039")
+	)
+	(wire
+		(pts
+			(xy 106.68 50.8) (xy 139.7 50.8)
 		)
 		(stroke
 			(width 0)
@@ -784,7 +762,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 77.47) (xy 127 77.47)
+			(xy 129.54 76.2) (xy 139.7 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e42236-27c2-4bb8-9fdc-1a1e9b776bd8")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8dceb5-45ae-4368-bb1b-f8596816f18e")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -795,23 +793,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 134.62 66.04)
+			(xy 106.68 62.23) (xy 134.62 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "43ff82fc-ef55-4300-8c31-33df4abd08b8")
-	)
-	(wire
-		(pts
-			(xy 106.68 74.93) (xy 139.7 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f70ff7f-ea9e-4672-b202-1565d2bcd8a7")
 	)
 	(wire
 		(pts
@@ -825,7 +813,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 127 68.58)
+			(xy 106.68 64.77) (xy 127 64.77)
 		)
 		(stroke
 			(width 0)
@@ -868,17 +856,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 116.84 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6a362efb-6c80-418c-a18b-f5478d3403b4")
-	)
-	(wire
-		(pts
 			(xy 152.4 91.44) (xy 154.94 91.44)
 		)
 		(stroke
@@ -890,14 +867,34 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 149.86 54.61)
+			(xy 129.54 73.66) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83daf99b-6536-4adf-a803-3ed22b351cef")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e590dd0-6480-4128-b0a1-2fad125c671b")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 116.84 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "9d5ed400-d450-4937-b070-ef7a84d863cc")
+		(uuid "93385a27-67dd-4e55-8e6a-567bd160b0d6")
 	)
 	(wire
 		(pts
@@ -912,18 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 116.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a5194a48-01b0-40e0-83aa-cecebe08daab")
-	)
-	(wire
-		(pts
-			(xy 149.86 54.61) (xy 149.86 48.26)
+			(xy 149.86 48.26) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -931,6 +917,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "b71d3881-d7bb-474e-a8a2-d6ee91f106c9")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c832637e-5fc7-46e9-90ff-a155f1b824f8")
 	)
 	(wire
 		(pts
@@ -945,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 63.5) (xy 116.84 63.5)
+			(xy 106.68 59.69) (xy 116.84 59.69)
 		)
 		(stroke
 			(width 0)
@@ -956,17 +952,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 57.15) (xy 139.7 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfb136f5-0bc4-48c1-80d1-79280e80ff23")
-	)
-	(wire
-		(pts
-			(xy 127 77.47) (xy 127 87.63)
+			(xy 127 76.2) (xy 127 87.63)
 		)
 		(stroke
 			(width 0)
@@ -974,26 +960,6 @@
 			(color 1 0 0 1)
 		)
 		(uuid "e002b126-96fa-43de-b456-db615dd74f46")
-	)
-	(wire
-		(pts
-			(xy 139.7 74.93) (xy 139.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e312b618-ff24-4242-b5dc-fe1a5069af63")
-	)
-	(wire
-		(pts
-			(xy 134.62 73.66) (xy 139.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee16eaba-3d9e-46ff-9811-2a4a0ec6f1cb")
 	)
 	(wire
 		(pts
@@ -1005,19 +971,9 @@
 		)
 		(uuid "f520b049-e921-496c-a8e4-5b2f2767eb90")
 	)
-	(wire
-		(pts
-			(xy 134.62 66.04) (xy 134.62 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6d77e8-50a8-483a-9b84-0e63cd828c4b")
-	)
 	(text "1 - V\n2 - Signal\n3 - GND"
 		(exclude_from_sim no)
-		(at 86.614 50.292 0)
+		(at 86.36 39.878 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1027,7 +983,7 @@
 		(uuid "8fc41cb9-339d-4d6a-b9c6-05e1011c6554")
 	)
 	(label "Signal"
-		(at 109.22 57.15 0)
+		(at 109.22 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1038,7 +994,7 @@
 		(uuid "0d475ca0-0ae1-4152-9ecf-c900f2665dda")
 	)
 	(label "5V"
-		(at 109.22 72.39 0)
+		(at 109.22 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1049,7 +1005,7 @@
 		(uuid "1337e3ce-e9b4-4f89-aef1-d05f7392d994")
 	)
 	(label "GND"
-		(at 109.22 77.47 0)
+		(at 109.22 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1060,7 +1016,7 @@
 		(uuid "5bc6a4ae-b5d8-4077-8a46-19852d926325")
 	)
 	(label "Signal"
-		(at 109.22 66.04 0)
+		(at 109.22 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1071,7 +1027,7 @@
 		(uuid "768cbbe4-89bb-4f38-b959-759ebd1868fd")
 	)
 	(label "GND"
-		(at 109.22 59.69 0)
+		(at 109.22 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1082,7 +1038,7 @@
 		(uuid "97c5fd43-5c72-4634-aa1f-318bcd7e92e0")
 	)
 	(label "5V"
-		(at 109.22 54.61 0)
+		(at 109.22 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1115,7 +1071,7 @@
 		(uuid "c233a657-dd86-48b8-8db9-b1dbfd51fccd")
 	)
 	(label "Signal"
-		(at 109.22 74.93 0)
+		(at 109.22 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1126,7 +1082,7 @@
 		(uuid "cae9bf0c-7a28-4c25-9035-91f6b10b43c1")
 	)
 	(label "5V"
-		(at 109.22 63.5 0)
+		(at 109.22 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1137,7 +1093,7 @@
 		(uuid "e0d12fa4-c7d4-418f-ae45-44024e9e14d4")
 	)
 	(label "GND"
-		(at 109.22 68.58 0)
+		(at 109.22 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1219,35 +1175,43 @@
 		(uuid "ffc9176c-07de-46db-bbf6-86c5020498cc")
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 101.6 66.04 0)
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 96.52 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "063a9259-6e50-4d67-835b-b8d7d6676238")
-		(property "Reference" "J11"
-			(at 100.33 64.7699 0)
+		(uuid "0d4ad9b3-5b19-4b44-801d-6df24bec2b0a")
+		(property "Reference" "J9"
+			(at 89.916 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 100.33 67.3099 0)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 81.026 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 66.04 0)
+		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+			(at 96.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,8 +1219,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 66.04 0)
+		(property "Description" ""
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1264,63 +1228,102 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 101.6 66.04 0)
+		(property "PARTREV" "1.0"
+			(at 96.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "2acea6ed-177c-4334-b406-4be2a758b5e9")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 96.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "319d07e5-19c3-4f1e-92c5-60a486c68789")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 96.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 96.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "7ee3a94d-b9b9-485c-acc3-8492fb30bee2")
+			(uuid "ba88bbdb-4b5d-4a7f-9080-9b2f3cbe554e")
+		)
+		(pin "3"
+			(uuid "247ac61b-7078-45ad-8653-50dcea7cc1d8")
+		)
+		(pin "1"
+			(uuid "a08a2c99-2541-4463-a966-5f9debfd80ff")
 		)
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
-					(reference "J11")
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 101.6 57.15 0)
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 96.52 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "53b41011-e00b-42f6-8846-dfeecec37e7f")
-		(property "Reference" "J1"
-			(at 100.33 55.8799 0)
+		(uuid "60570ab3-7c0a-4e45-a1ec-df8b3b07dcc1")
+		(property "Reference" "J7"
+			(at 89.916 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 100.33 58.4199 0)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 81.026 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 57.15 0)
+		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,8 +1331,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 57.15 0)
+		(property "Description" ""
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,28 +1340,171 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 101.6 57.15 0)
+		(property "PARTREV" "1.0"
+			(at 96.52 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f1d3ed25-6d79-47fb-8b13-59304507e843")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "0f927878-e4ef-47c9-8ae3-a68c8120c953")
+			(uuid "329fea29-a41e-4bf9-9e8d-287856c638b9")
 		)
 		(pin "3"
-			(uuid "556c4dad-e260-491d-a005-9d143ffc670d")
+			(uuid "c68a451f-097f-49ce-be07-b6730c89bf79")
+		)
+		(pin "1"
+			(uuid "33da7f39-3a09-4e9e-88f2-65636ea90c4f")
+		)
+		(instances
+			(project ""
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 96.52 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e19c400-384e-41c4-813a-74ed88c147f9")
+		(property "Reference" "J8"
+			(at 89.916 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 81.026 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "715b6e74-2e91-4320-9e5c-6dc43d9c910f")
+		)
+		(pin "3"
+			(uuid "9d33a69c-6039-4cdb-9785-2957e21f4369")
+		)
+		(pin "1"
+			(uuid "750609da-87a4-4cd0-84f0-37beeb94d5bb")
 		)
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1525,35 +1671,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 101.6 74.93 0)
+		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
+		(at 96.52 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c965b50d-1d60-419a-805d-752c846c3c0f")
-		(property "Reference" "J12"
-			(at 100.33 73.6599 0)
+		(uuid "dd29d27f-cb43-4fef-8574-2af65b0a98e0")
+		(property "Reference" "J10"
+			(at 89.916 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 100.33 76.1999 0)
+		(property "Value" "TBP03R2-350-03BE"
+			(at 81.026 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 74.93 0)
+		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,8 +1715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 74.93 0)
+		(property "Description" ""
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,101 +1724,59 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 101.6 74.93 0)
+		(property "PARTREV" "1.0"
+			(at 96.52 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "c2db38ec-6025-44e8-9e24-25caa967a6f3")
+			(uuid "dc9e4b01-c967-43b8-823d-a027f03c5a3d")
 		)
 		(pin "3"
-			(uuid "9e82e3c1-d847-4f0a-b4a1-2c863b773c76")
+			(uuid "edadb2e5-60e6-4d42-8fd4-56e9625fef88")
 		)
 		(pin "1"
-			(uuid "9c8f8a4d-69a7-4f5e-82c6-851dcb103655")
+			(uuid "31cf35db-3c0b-43fd-a706-a1b85e8c6c4a")
 		)
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 101.6 85.09 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9b99018-72ca-46c4-8a83-6efa27028024")
-		(property "Reference" "J13"
-			(at 100.33 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 100.33 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 101.6 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8944061b-97c2-4519-8be3-4364194ae0da")
-		)
-		(pin "3"
-			(uuid "3e5ffc70-a47a-417b-9f62-cb5339c852fb")
-		)
-		(pin "2"
-			(uuid "2fb2d08b-7045-420f-b3e0-87e459292a11")
-		)
-		(instances
-			(project "WholeCircuitIntegration(Flagged)"
-				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)
