@@ -3892,7 +3892,7 @@
 			(uuid "f2f27a01-a7f7-413d-a28a-4768bcc2c653")
 		)
 		(instances
-			(project "WholeCircuitIntegration(Flagged)"
+			(project "Jetson_Extension_Board"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
 					(page "3")
 				)
@@ -3990,7 +3990,7 @@
 			(uuid "8a5d27d2-5798-4887-878d-f89e9c5a3684")
 		)
 		(instances
-			(project "WholeCircuitIntegration(Flagged)"
+			(project "Jetson_Extension_Board"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
 					(page "4")
 				)
@@ -4078,7 +4078,7 @@
 			(uuid "d55eeabd-223f-47b7-9370-87d0b37a6ec7")
 		)
 		(instances
-			(project "WholeCircuitIntegration(Flagged)"
+			(project "Jetson_Extension_Board"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
 					(page "2")
 				)

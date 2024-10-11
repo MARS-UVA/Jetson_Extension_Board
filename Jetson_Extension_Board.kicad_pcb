@@ -136,7 +136,7 @@
 	(footprint "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 		(layer "F.Cu")
 		(uuid "0ded4dea-0340-4a1e-bd4f-cf2835b0defa")
-		(at 123.2125 113.6)
+		(at 122.5 116.5)
 		(property "Reference" "J3"
 			(at 0.575 -6.085 0)
 			(layer "F.SilkS")
@@ -433,7 +433,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "11a58aae-c0ba-4789-a8dd-47b9af309e85")
-		(at 155.5375 147.5)
+		(at 169.0375 141)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -943,7 +943,7 @@
 	(footprint "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 		(layer "F.Cu")
 		(uuid "1a9a7f01-4069-46eb-932d-461ed4578734")
-		(at 123.2125 122.35)
+		(at 122.5 125)
 		(property "Reference" "J4"
 			(at 0.575 -6.085 0)
 			(layer "F.SilkS")
@@ -1240,7 +1240,7 @@
 	(footprint "Package_SO:TSSOP-10_3x3mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "28e973a8-7aaa-4b63-a260-12fc089e43e3")
-		(at 164.4775 102.2)
+		(at 140.35 100)
 		(descr "TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)")
 		(tags "SSOP 0.5")
 		(property "Reference" "U4"
@@ -2589,10 +2589,10 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "61ac9274-8f5d-42e6-aebb-8c5fa9ccda50")
-		(at 149.9075 145.25)
+		(at 176.025 135)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "5bb68d5b-f891-41b8-a75d-737baa067013")
@@ -3399,7 +3399,7 @@
 		(at 149.9075 148.6)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "5b85d315-a4aa-45f2-8873-94cdffd5679a")
@@ -3609,10 +3609,10 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "9dcb15d1-83b6-4671-9c14-4f29b8d7edf2")
-		(at 149.9075 141.9)
+		(at 166.025 145)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "55f29d39-8706-429d-bba0-9351a6cbc90a")
@@ -3822,10 +3822,10 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "b564c7eb-10d5-4569-84e3-b1b2a8f058bd")
-		(at 149.9075 138.55)
+		(at 150.025 138.5)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "8f1e2d29-56a3-4817-9fbb-25c749b96a76")
@@ -4035,7 +4035,7 @@
 	(footprint "Package_DIP:DIP-14_W7.62mm_Socket"
 		(layer "F.Cu")
 		(uuid "b5d63616-655e-4ae2-8654-f874217446c9")
-		(at 135.4075 102)
+		(at 128 135.38)
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U2"
@@ -4503,7 +4503,7 @@
 	(footprint "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 		(layer "F.Cu")
 		(uuid "c4bade64-32ef-401e-b124-bb6c84af9ba2")
-		(at 123.2125 104.85)
+		(at 122.5 107.5)
 		(property "Reference" "J2"
 			(at 0.575 -6.085 0)
 			(layer "F.SilkS")
@@ -4800,7 +4800,7 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "d8624f39-9882-406d-8e75-d47461470538")
-		(at 155.5375 144.21)
+		(at 175.0375 146.5)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -5013,7 +5013,7 @@
 	(footprint "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 		(layer "F.Cu")
 		(uuid "e91318d4-9c1e-4c6f-bbd3-4be523bd4dd7")
-		(at 123.2125 131.1)
+		(at 149.5 156)
 		(property "Reference" "J5"
 			(at 0.575 -6.085 0)
 			(layer "F.SilkS")
@@ -5310,7 +5310,7 @@
 	(footprint "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "f3fad209-8902-44dc-ba94-80d9dbf87c06")
-		(at 156.3525 139.795)
+		(at 176.6125 140.75)
 		(descr "LGA 28 5.2x3.8mm Pitch 0.5mm")
 		(tags "LGA 28 5.2x3.8mm Pitch 0.5mm")
 		(property "Reference" "U1"

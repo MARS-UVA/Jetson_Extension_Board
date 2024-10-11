@@ -1662,7 +1662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07cebe44-046c-4d45-8590-026aa36b1800")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 190.5 99.822 90)
 			(effects
 				(font
@@ -1714,7 +1714,7 @@
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/330580df-b1d0-4440-aa2e-172d63d89a0a"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1878,7 +1878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "934289dc-9943-45b1-beac-6cf4d0954334")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 165.1 58.4199 0)
 			(effects
 				(font
@@ -1932,7 +1932,7 @@
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/330580df-b1d0-4440-aa2e-172d63d89a0a"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2085,7 +2085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef45f1c7-c9db-4594-8275-6a88975dc4c2")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 177.292 57.912 0)
 			(effects
 				(font
@@ -2139,7 +2139,7 @@
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/330580df-b1d0-4440-aa2e-172d63d89a0a"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2154,7 +2154,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2664c2e-8dd1-40d2-a939-0560a24c24a1")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 188.214 57.658 0)
 			(effects
 				(font
@@ -2206,7 +2206,7 @@
 		(instances
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/330580df-b1d0-4440-aa2e-172d63d89a0a"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)

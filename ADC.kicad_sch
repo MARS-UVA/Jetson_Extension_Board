@@ -1089,7 +1089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 			(at 96.52 73.66 0)
 			(effects
 				(font
@@ -1201,7 +1201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 			(at 96.52 50.8 0)
 			(effects
 				(font
@@ -1313,7 +1313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+		(property "Footprint" "TBP03R2_350_03BE:CUI_TBP03R2-350-03BE"
 			(at 96.52 85.09 0)
 			(effects
 				(font
