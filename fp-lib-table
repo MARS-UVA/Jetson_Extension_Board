@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TBP03R2_350_03BE(1)")(type "KiCad")(uri "${KIPRJMOD}/TBP03R2_350_03BE(1)")(options "")(descr ""))
+)
