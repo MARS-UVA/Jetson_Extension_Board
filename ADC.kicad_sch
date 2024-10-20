@@ -266,125 +266,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "TBP03R2-350-03BE:TBP03R2-350-03BE"
 			(pin_names
 				(offset 1.016)
@@ -560,12 +441,6 @@
 		(uuid "1cae0a1d-8f9c-4425-afbe-064bde2d1526")
 	)
 	(junction
-		(at 166.37 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30bb1dc5-a81d-44bd-ad6e-b637d07b4a2a")
-	)
-	(junction
 		(at 149.86 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -596,12 +471,6 @@
 		(uuid "b7e9b89c-cd82-4807-9014-dd6428625d6a")
 	)
 	(junction
-		(at 163.83 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c856f139-f161-4c0c-a033-df8b59f36a55")
-	)
-	(junction
 		(at 116.84 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -610,16 +479,6 @@
 	(no_connect
 		(at 160.02 78.74)
 		(uuid "cf3bc637-de96-472b-8ee6-7058fe93bbb7")
-	)
-	(wire
-		(pts
-			(xy 163.83 73.66) (xy 167.64 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c9767e-9a18-41a2-b792-6a3d52875c52")
 	)
 	(wire
 		(pts
@@ -676,7 +535,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 163.83 73.66)
+			(xy 160.02 73.66) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -718,16 +577,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c05a77f-4093-4029-847a-b1d0ea7f3402")
-	)
-	(wire
-		(pts
 			(xy 106.68 82.55) (xy 116.84 82.55)
 		)
 		(stroke
@@ -747,16 +596,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "2588d930-9655-46c0-a8e0-e1c2cceeb2c3")
-	)
-	(wire
-		(pts
-			(xy 166.37 81.28) (xy 175.26 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ac6150-d715-4331-b822-5b2dfef27ed4")
 	)
 	(wire
 		(pts
@@ -793,6 +632,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331c0c34-a142-4bf2-9c1d-c6ee982c2d40")
+	)
+	(wire
+		(pts
 			(xy 149.86 48.26) (xy 152.4 48.26)
 		)
 		(stroke
@@ -825,7 +674,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 166.37 76.2)
+			(xy 160.02 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -875,16 +724,6 @@
 			(color 1 0 0 1)
 		)
 		(uuid "5a32e75d-55c5-4c4f-bfbd-c9c09a335dfe")
-	)
-	(wire
-		(pts
-			(xy 163.83 73.66) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fb57249-0910-446d-bd7e-1b797d8524d5")
 	)
 	(wire
 		(pts
@@ -948,26 +787,6 @@
 			(type default)
 		)
 		(uuid "a78fab6f-4a4b-4527-b7a1-733a0ba54bd8")
-	)
-	(wire
-		(pts
-			(xy 166.37 76.2) (xy 166.37 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0cd2bc5-3234-4fcc-aa91-63c87a02cc66")
-	)
-	(wire
-		(pts
-			(xy 166.37 76.2) (xy 167.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0ff3f37-e0a4-4183-ae42-97e78749354c")
 	)
 	(wire
 		(pts
@@ -1575,138 +1394,6 @@
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 163.83 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ee08093-0d3e-4b3d-9ab6-f56e3ec38d0d")
-		(property "Reference" "J1"
-			(at 165.1 84.4549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "I2C_2_SCL_DEBUG"
-			(at 153.416 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 163.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95c600b5-84f6-4fcb-8d71-abc181300b30")
-		)
-		(instances
-			(project "Jetson_Extension_Board"
-				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 175.26 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "852260bb-0fb7-46d0-98a4-de4c46eaccce")
-		(property "Reference" "J11"
-			(at 176.53 84.4549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "I2C_2_SCA_DEBUG"
-			(at 173.736 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "918a3a01-7998-47dd-87de-67ccef043a8a")
-		)
-		(instances
-			(project "Jetson_Extension_Board"
-				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6/607cc1b6-24e0-474a-81e8-dcba676951e3"
-					(reference "J11")
 					(unit 1)
 				)
 			)
