@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LTST-C191KGKT")(type "KiCad")(uri "${KIPRJMOD}/LTST_C191KGKT/LTST-C191KGKT.kicad_sym")(options "")(descr ""))
+)
