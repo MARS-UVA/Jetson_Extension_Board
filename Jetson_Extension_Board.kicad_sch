@@ -4388,7 +4388,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150"
 			(at 130.81 126.9999 0)
 			(effects
 				(font
@@ -4397,7 +4397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 126.492 125.73 90)
 			(effects
 				(font
@@ -4714,7 +4714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C295K_1.6x0.8mm"
 			(at 128.27 134.62 0)
 			(effects
 				(font
