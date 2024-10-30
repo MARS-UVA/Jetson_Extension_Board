@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
-%TF.CreationDate,2024-10-27T16:25:35-04:00*%
+%TF.CreationDate,2024-10-29T23:26:29-04:00*%
 %TF.ProjectId,Jetson_Extension_Board,4a657473-6f6e-45f4-9578-74656e73696f,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-27 16:25:35*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-29 23:26:29*
 %MOMM*%
 %LPD*%
 G01*

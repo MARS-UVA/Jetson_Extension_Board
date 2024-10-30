@@ -7828,6 +7828,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "ST1"
+		(at 95.5 137 0)
+		(layer "F.SilkS")
+		(uuid "1ab66adb-e24d-4b8d-9e18-2f52771389fe")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "U1"
 		(at 132 91.5 0)
 		(layer "F.SilkS")
@@ -7928,6 +7941,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SCL"
+		(at 150 76 0)
+		(layer "F.SilkS")
+		(uuid "4a68d069-29a7-4eb5-b46b-22fa388a3712")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Sig 4"
 		(at 146.5 134 0)
 		(layer "F.SilkS")
@@ -7961,6 +7987,19 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 152.5 76 0)
+		(layer "F.SilkS")
+		(uuid "6c0f5c7e-cdc3-49d0-a47c-28f8621d5e88")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.127)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
