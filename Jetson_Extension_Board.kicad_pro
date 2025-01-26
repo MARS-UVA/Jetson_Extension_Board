@@ -610,10 +610,6 @@
       "ADC"
     ],
     [
-      "330580df-b1d0-4440-aa2e-172d63d89a0a",
-      "IMU(BN0055)"
-    ],
-    [
       "5b057916-7ee6-4e52-ba3a-2ff69b8bdfd4",
       "SchmittTrigger(74LV14)"
     ]
