@@ -5365,7 +5365,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 224.79 92.71 0)
 			(effects
 				(font
