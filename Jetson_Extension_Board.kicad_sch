@@ -3031,6 +3031,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 99.06) (xy 72.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b29bd04-2c06-41be-8cdf-8c92f5c8b438")
+	)
+	(wire
+		(pts
 			(xy 194.31 104.14) (xy 201.93 104.14)
 		)
 		(stroke
@@ -3461,16 +3471,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 101.6) (xy 72.39 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d374ae9-1985-48de-af3d-1724d271aff5")
-	)
-	(wire
-		(pts
 			(xy 162.56 124.46) (xy 171.45 124.46)
 		)
 		(stroke
@@ -3478,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "5e2c61fb-d042-4542-98da-19261a6525aa")
+	)
+	(wire
+		(pts
+			(xy 57.15 101.6) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed41c9d-9034-4e87-8475-3ad41398f585")
 	)
 	(wire
 		(pts
@@ -3778,16 +3788,6 @@
 			(type default)
 		)
 		(uuid "b3e1aaac-7036-4d4a-a445-2540a356b0be")
-	)
-	(wire
-		(pts
-			(xy 67.31 99.06) (xy 72.39 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4dcf8ab-bbc4-4083-9c15-b1fd9e9036d3")
 	)
 	(wire
 		(pts
@@ -5179,23 +5179,23 @@
 		)
 	)
 	(global_label "ST 5"
-		(shape output)
-		(at 57.15 101.6 0)
+		(shape input)
+		(at 57.15 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "92535d04-baf5-4902-a6c6-c6bfdabd0405")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.4894 101.6 0)
+			(at 49.8106 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5311,23 +5311,23 @@
 		)
 	)
 	(global_label "ST 6"
-		(shape output)
-		(at 57.15 99.06 0)
+		(shape input)
+		(at 57.15 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bfd5f09c-6fa8-4ffd-84c9-69de8f2b52a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.4894 99.06 0)
+			(at 49.8106 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
