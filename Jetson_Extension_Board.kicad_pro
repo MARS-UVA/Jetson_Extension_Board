@@ -481,15 +481,15 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "../../Downloads/Jetson_Extension_Board.cad",
       "idf": "",
       "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Downloads/Jetson_Extension_Board.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../Downloads/Jetson_Extension_Board.wrl"
     },
     "page_layout_descr_file": ""
   },
