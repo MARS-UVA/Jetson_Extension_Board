@@ -6798,7 +6798,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "TerminalBlock:TBP04R2-500-04BE"
 			(at 149.86 107.95 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LTST_C191KGKT:0603"
+		(property "Footprint" "LTST-C191KGKT:0603"
 			(at 128.27 133.35 0)
 			(effects
 				(font
