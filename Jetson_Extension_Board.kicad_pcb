@@ -4097,7 +4097,7 @@
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H3"
-			(at 0 -4 0)
+			(at -3.8 -2.8 0)
 			(layer "F.SilkS")
 			(uuid "e80a7a40-257e-4ead-b78c-7152496d12a6")
 			(effects
@@ -5893,7 +5893,7 @@
 		(uuid "a527f1d2-4017-4120-bb41-bbbd09604222")
 		(at 128.621177 95.665687)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "06d95020-4c11-4a9d-8b10-6fd9cd3041c0")
@@ -5905,7 +5905,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fa455a29-7b70-4d14-aeb5-be9008f3efc1")
@@ -5917,7 +5917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "84ae6269-1fcb-4ed5-8453-c76e116ee076")
@@ -5929,7 +5929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51514839-cc4a-43e6-bf0b-097968f1705e")
@@ -5941,7 +5941,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5e07672-aab2-4775-92a7-881c0b6ca806")
@@ -7027,7 +7027,7 @@
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H1"
-			(at 0 -4 0)
+			(at 3.8 -2.6 0)
 			(layer "F.SilkS")
 			(uuid "2cb1d5fd-8cc6-4153-b2b9-78a04efcefff")
 			(effects
