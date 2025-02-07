@@ -2549,7 +2549,7 @@
 				)
 			)
 		)
-		(symbol "TBP03R2-350-03BE:TBP03R2-350-03BE"
+		(symbol "TBP04R2-500-02BE:TBP04R2-500-02BE"
 			(pin_names
 				(offset 1.016)
 			)
@@ -2565,8 +2565,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "TBP03R2-350-03BE"
-				(at -5.08 -7.62 0)
+			(property "Value" "TBP04R2-500-02BE"
+				(at -5.08 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2574,7 +2574,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "TBP03R2-350-03BE:CUI_TBP03R2-350-03BE"
+			(property "Footprint" "TBP04R2-500-02BE:CUI_TBP04R2-500-02BE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2622,7 +2622,7 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "12.00mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2642,9 +2642,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "TBP03R2-350-03BE_0_0"
+			(symbol "TBP04R2-500-02BE_0_0"
 				(rectangle
-					(start -5.08 -5.08)
+					(start -5.08 -2.54)
 					(end 5.08 5.08)
 					(stroke
 						(width 0.254)
@@ -2683,24 +2683,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2808,18 +2790,6 @@
 		)
 	)
 	(junction
-		(at 158.75 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40f96b3c-9f01-4ff9-bcb7-ac45d3a20556")
-	)
-	(junction
-		(at 153.67 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "476db8fa-f53d-4558-b293-0aae14d2e9c0")
-	)
-	(junction
 		(at 201.93 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2830,12 +2800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c087e611-2e81-4d9e-9cd2-8695b17273d0")
-	)
-	(junction
-		(at 156.21 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c287fa26-8367-4120-9099-7cd7f99238c1")
 	)
 	(junction
 		(at 93.98 88.9)
@@ -2888,10 +2852,6 @@
 	(no_connect
 		(at 90.17 81.28)
 		(uuid "30e49317-d61d-42fc-b79b-1e66506fa0f9")
-	)
-	(no_connect
-		(at 90.17 99.06)
-		(uuid "472d82ef-b261-426e-aaf4-124055ea0ae0")
 	)
 	(no_connect
 		(at 67.31 91.44)
@@ -2950,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "012d63a1-e741-4343-893b-e97948c3cb6f")
+	)
+	(wire
+		(pts
+			(xy 95.25 99.06) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03926a44-c91e-4b4e-b257-a3afc6eb79ff")
 	)
 	(wire
 		(pts
@@ -3043,16 +3013,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 153.67 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df018f8-e6d7-4edc-a98f-fa769f16e9eb")
-	)
-	(wire
-		(pts
 			(xy 85.09 73.66) (xy 90.17 73.66)
 		)
 		(stroke
@@ -3100,16 +3060,6 @@
 			(type default)
 		)
 		(uuid "13e48cc9-f49a-45c1-90a1-00fa17f930fd")
-	)
-	(wire
-		(pts
-			(xy 158.75 86.36) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14af8b70-9b50-4371-ba79-197efcfeb337")
 	)
 	(wire
 		(pts
@@ -3183,16 +3133,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 83.82) (xy 154.94 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c5bc25-2a3d-402f-8608-d74ec7f076ae")
-	)
-	(wire
-		(pts
 			(xy 67.31 88.9) (xy 72.39 88.9)
 		)
 		(stroke
@@ -3240,16 +3180,6 @@
 			(type default)
 		)
 		(uuid "31c4b0f6-749a-4230-b94a-a198f3afefac")
-	)
-	(wire
-		(pts
-			(xy 156.21 69.85) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3695f8e9-0587-4522-944b-25ff54e2cfcd")
 	)
 	(wire
 		(pts
@@ -3333,16 +3263,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 69.85) (xy 156.21 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c117979-6d6b-4ad3-893e-9ad829b155ea")
-	)
-	(wire
-		(pts
 			(xy 177.8 96.52) (xy 118.11 96.52)
 		)
 		(stroke
@@ -3363,36 +3283,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 158.75 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a3ffa9-c19c-4cb4-b5c8-8ec090eb61a4")
-	)
-	(wire
-		(pts
-			(xy 153.67 72.39) (xy 157.48 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541a5d05-4a54-4edf-827e-702a51e0bf77")
-	)
-	(wire
-		(pts
-			(xy 157.48 48.26) (xy 153.67 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57c60f8d-2e57-4f55-8884-46689ccc8362")
-	)
-	(wire
-		(pts
 			(xy 110.49 182.88) (xy 125.73 182.88)
 		)
 		(stroke
@@ -3400,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "5b0b7377-af6a-4dc5-b0af-a3965ef967df")
-	)
-	(wire
-		(pts
-			(xy 154.94 50.8) (xy 153.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ccf5ce8-e93f-4b72-ba94-49a4488e8c1c")
 	)
 	(wire
 		(pts
@@ -3430,6 +3310,16 @@
 			(type default)
 		)
 		(uuid "636c3a3e-4946-46df-a06c-11ae85ba51b8")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64506ac7-36ca-44cb-9ae5-6f819db28fde")
 	)
 	(wire
 		(pts
@@ -3460,16 +3350,6 @@
 			(type default)
 		)
 		(uuid "6a8635ba-3db8-4b03-99f1-2fa4b55e5294")
-	)
-	(wire
-		(pts
-			(xy 153.67 81.28) (xy 156.21 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7344f173-87b6-4ed4-a3ee-73937a16f543")
 	)
 	(wire
 		(pts
@@ -3533,6 +3413,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 81.28) (xy 120.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81327596-1fbe-40db-8cdf-0407f0489af1")
+	)
+	(wire
+		(pts
 			(xy 85.09 86.36) (xy 90.17 86.36)
 		)
 		(stroke
@@ -3590,16 +3480,6 @@
 			(type default)
 		)
 		(uuid "9cab6cd9-94fa-4a5b-9441-79d37ad794a9")
-	)
-	(wire
-		(pts
-			(xy 156.21 81.28) (xy 156.21 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7022b7-1f9e-400c-9199-d0d05038affe")
 	)
 	(wire
 		(pts
@@ -3703,26 +3583,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 90.17) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2df927f-58c5-4a88-aa70-d50c859b607d")
-	)
-	(wire
-		(pts
-			(xy 153.67 53.34) (xy 153.67 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e1aaac-7036-4d4a-a445-2540a356b0be")
-	)
-	(wire
-		(pts
 			(xy 177.8 96.52) (xy 177.8 124.46)
 		)
 		(stroke
@@ -3730,16 +3590,6 @@
 			(type default)
 		)
 		(uuid "b61dd238-9f92-405e-ace7-3d6b3a78d3ea")
-	)
-	(wire
-		(pts
-			(xy 158.75 74.93) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ee8c93-5554-4adf-b0bd-455fc7c68914")
 	)
 	(wire
 		(pts
@@ -3853,16 +3703,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce2f92bd-0ec8-4e54-b411-6994991f92e7")
-	)
-	(wire
-		(pts
 			(xy 85.09 96.52) (xy 93.98 96.52)
 		)
 		(stroke
@@ -3900,16 +3740,6 @@
 			(type default)
 		)
 		(uuid "d6d89cf1-3c61-4354-93a8-e7301471ecd3")
-	)
-	(wire
-		(pts
-			(xy 153.67 86.36) (xy 158.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ac268a-ca38-4286-93e9-2f2635492c54")
 	)
 	(wire
 		(pts
@@ -3963,17 +3793,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 157.48 48.26)
+			(xy 120.65 81.28) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c796bb-c3b7-44a4-b69c-6dab1d77436b")
+		(uuid "e6b3f4fa-9cc7-40a1-b244-0b5f41c90801")
 	)
 	(wire
 		(pts
-			(xy 85.09 99.06) (xy 90.17 99.06)
+			(xy 85.09 99.06) (xy 95.25 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5024,9 +4854,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "GND"
 		(shape input)
-		(at 154.94 90.17 180)
+		(at 119.38 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5034,9 +4864,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6510d79e-3aaf-49d9-84c5-c6e771a1a73b")
+		(uuid "6285f5a7-b60b-476f-a3e8-648d42e4dfdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6567 90.17 0)
+			(at 112.5243 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,28 +5197,6 @@
 		(uuid "a942b32f-de89-495e-8ba4-358be1fab1e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.5824 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 153.67 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae75b9f1-ef97-46ca-8055-3114cf1f0b0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.8143 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,118 +5669,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
-		(at 143.51 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3782dbf4-f603-4bfe-b598-0ad4d4bdb20a")
-		(property "Reference" "J17"
-			(at 136.906 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pot2"
-			(at 128.016 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TBP03R2_350_03BE(1):CUI_TBP03R2-350-03BE"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 143.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bcc0a01-b16a-4c88-ad1a-c8f41a9cfb21")
-		)
-		(pin "3"
-			(uuid "3bff17b8-599b-4372-821e-8105a38dd28f")
-		)
-		(pin "1"
-			(uuid "acb65703-206c-49ee-a3bd-7d8947adcea7")
-		)
-		(instances
-			(project "Jetson_Extension_Board"
-				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 29.21 154.94 0)
 		(unit 1)
@@ -6230,118 +5926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
-		(at 143.51 72.39 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70f58c3b-5b17-4be0-8504-9618557b301d")
-		(property "Reference" "J16"
-			(at 136.906 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pot1"
-			(at 128.016 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TBP03R2_350_03BE(1):CUI_TBP03R2-350-03BE"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66629c90-a3f7-4a5b-9716-0036d27192fa")
-		)
-		(pin "3"
-			(uuid "462d6b7d-1a0f-478b-8bf9-909596ab9b71")
-		)
-		(pin "1"
-			(uuid "2090f5cb-8a1e-4efe-92f6-87dbf3eca04d")
-		)
-		(instances
-			(project "Jetson_Extension_Board"
-				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 128.27 123.19 0)
 		(unit 1)
@@ -6406,118 +5990,6 @@
 			(project ""
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TBP03R2-350-03BE:TBP03R2-350-03BE")
-		(at 143.51 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d6f8559-71ec-4eee-8c21-431c046f75bf")
-		(property "Reference" "J18"
-			(at 136.906 46.736 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Pots_to_Nucleo"
-			(at 128.016 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TBP03R2_350_03BE(1):CUI_TBP03R2-350-03BE"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.50mm"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 143.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac69a88a-4484-42bc-9331-86876c179c9a")
-		)
-		(pin "3"
-			(uuid "91e64582-06f5-4fac-a178-ff84f3219856")
-		)
-		(pin "1"
-			(uuid "b2070ca1-3e2c-4e04-a3ae-6c7ff2748da6")
-		)
-		(instances
-			(project "Jetson_Extension_Board"
-				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
-					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -6700,6 +6172,117 @@
 			(project "WholeCircuitIntegration(Flagged)"
 				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TBP04R2-500-02BE:TBP04R2-500-02BE")
+		(at 130.81 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36a01e3-57f7-42bf-84ab-5db25027db64")
+		(property "Reference" "J16"
+			(at 137.16 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBP04R2-500-02BE"
+			(at 137.16 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:CUI_TBP04R2-500-02BE"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "12.00mm"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 130.81 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4e596f8-0073-4061-8b73-69e97f2dcdf8")
+		)
+		(pin "1"
+			(uuid "2ea9cc38-4c31-4e72-aadc-0e30b59b4d82")
+		)
+		(instances
+			(project ""
+				(path "/fac81d63-8655-47f4-bf8e-62708c29b8c6"
+					(reference "J16")
 					(unit 1)
 				)
 			)
