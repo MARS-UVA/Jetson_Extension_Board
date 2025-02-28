@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.7"
     },
-    "CreationDate": "2025-02-27T22:21:09-05:00"
+    "CreationDate": "2025-02-27T22:49:34-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -41,6 +41,11 @@
     {
       "Path": "Jetson_Extension_Board-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Jetson_Extension_Board-F_Paste.gtp",
+      "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
