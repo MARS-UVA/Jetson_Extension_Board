@@ -485,7 +485,7 @@
       "gencad": "../../Downloads/Jetson_Extension_Board.cad",
       "idf": "",
       "netlist": "",
-      "plot": "../../Downloads/",
+      "plot": "Gerber and Drill Files/JEB_rev3_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../Downloads/Jetson_Extension_Board.step",
